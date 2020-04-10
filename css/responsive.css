@@ -1,0 +1,476 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+    .banner_area .banner_text {
+        padding: 162px 0;
+    }
+
+    .banner_area .banner_text h2 {
+        font-size: 65px;
+    }
+
+    .banner_area .banner_text h1 {
+        font-size: 124px;
+        line-height: 130px;
+    }
+
+    .slider_area .left_arrow {
+        left: 4%;
+    }
+
+    .slider_area .right_arrow {
+        right: 4%;
+    }
+
+    .team_social a {
+        width: 47px;
+        height: 50px;
+    }
+
+    .footer_area .midd_part .img-a {
+        padding-bottom: 48px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar .navbar-nav {
+        background: #bb4d4d;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: none;
+    }
+
+    .navbar-light .navbar-toggler-icon i {
+        line-height: 1.5em;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::before {
+        width: 0;
+        height: 0px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 16px 0 0 0;
+    }
+
+    .navbar .navbar-nav li a .sub-nav-toggler {
+        position: absolute;
+        padding: 7px 11px;
+        background: none;
+        border: 0;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        display: block;
+    }
+
+    .navbar .navbar-nav li:hover .sub-menu {
+        width: 100%;
+    }
+
+    .navbar .navbar-nav li .sub-menu {
+        position: relative !important;
+        width: 94% !important;
+        left: 3% !important;
+        top: auto !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: none;
+        right: auto;
+        -webkit-transition: none;
+        transition: none;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        text-align: left;
+    }
+
+    .banner_area .banner_text {
+        padding: 90px 0;
+    }
+
+    .banner_area .banner_text h2 {
+        font-size: 62px;
+    }
+
+    .banner_area .banner_text h1 {
+        font-size: 99px;
+        line-height: 115px;
+        padding-bottom: 30px;
+        margin-bottom: 35px;
+    }
+
+    .about_area .md-item {
+        margin-top: 26px;
+    }
+
+    .counter_area .counter_1 .countup {
+        font-size: 64px;
+    }
+
+    .Services_area .sre_item.abc {
+        padding-top: 0px;
+    }
+
+    .slider_area .left_arrow {
+        display: none !important;
+    }
+
+    .slider_area .right_arrow {
+        display: none !important;
+    }
+
+    .slider_area .single_slide .slider_text p {
+        font-size: 18px;
+    }
+
+    .slider_area .single_slide .slider_text h4 {
+        font-size: 22px;
+        padding-left: 60px;
+
+    }
+
+    .slider_area .single_slide .slider_text h4::before {
+        width: 48px;
+    }
+
+    .team_area .single_team .team_social a {
+        width: 47px;
+        height: 50px;
+    }
+
+    .team_area .btm {
+        padding-bottom: 27px;
+    }
+
+    .footer_area .midd_title h2 {
+        padding-top: 38px;
+    }
+
+    .footer_area .midd_part .img-a {
+        padding-bottom: 48px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar {
+        top: 3%;
+    }
+
+    .navbar .navbar-nav {
+        background: #bb4d4d;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: none;
+    }
+
+    .navbar-light .navbar-toggler-icon i {
+        line-height: 1.5em;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::before {
+        width: 0;
+        height: 0px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 16px 0 0 0;
+    }
+
+
+
+
+    .navbar .navbar-nav li a .sub-nav-toggler {
+        position: absolute;
+        padding: 7px 11px;
+        background: none;
+        border: 0;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        display: block;
+    }
+
+    .navbar .navbar-nav li:hover .sub-menu {
+        width: 100%;
+    }
+
+    .navbar .navbar-nav li .sub-menu {
+        position: relative !important;
+        width: 82% !important;
+        left: 9% !important;
+        top: auto !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: none;
+        right: auto;
+        -webkit-transition: none;
+        transition: none;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        text-align: left;
+    }
+
+
+
+
+    .banner_area .banner_text {
+        padding: 76px 0;
+    }
+
+    .banner_area .banner_text h2 {
+        font-size: 56px;
+    }
+
+    .banner_area .banner_text h1 {
+        font-size: 87px;
+        line-height: 99px;
+        padding-bottom: 23px;
+        margin-bottom: 30px;
+    }
+
+    .about_area .single_item {
+        position: relative;
+        margin-top: 24px;
+    }
+
+    .about_area .md-item {
+        margin-top: 26px;
+    }
+
+    .counter_area .counter_1 .countup {
+        font-size: 64px;
+    }
+
+    .Services_area .sre_item.abc {
+        padding-top: 0px;
+    }
+
+    .Services_area .sre_item {
+        padding-bottom: 14px;
+    }
+
+    .slider_area .left_arrow {
+        display: none !important;
+    }
+
+    .slider_area .right_arrow {
+        display: none !important;
+    }
+
+    .slider_area .single_slide .slider_text p {
+        font-size: 16px;
+    }
+
+    .slider_area .single_slide .slider_text h4 {
+        font-size: 20px;
+        padding-left: 49px;
+    }
+
+    .slider_area .single_slide .slider_text h4::before {
+        width: 39px;
+    }
+
+    .team_area .single_team .team_social a {
+        width: 47px;
+        height: 50px;
+    }
+
+    .team_area .btm {
+        padding-bottom: 27px;
+    }
+
+    .footer_area .midd_title h2 {
+        padding-top: 38px;
+    }
+
+    .footer_area .midd_part .img-a {
+        padding-bottom: 48px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar {
+        top: 3%;
+    }
+
+    .navbar .navbar-nav {
+        background: #bb4d4d;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .navbar-light .navbar-brand {
+        padding-left: 3%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: none;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::before {
+        width: 0;
+        height: 0px;
+    }
+
+    .navbar-light .navbar-toggler-icon i {
+        line-height: 1.5em;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 16px 0 0 0;
+    }
+
+
+
+    .navbar .navbar-nav li a .sub-nav-toggler {
+        position: absolute;
+        padding: 7px 11px;
+        background: none;
+        border: 0;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        display: block;
+    }
+
+    .navbar .navbar-nav li:hover .sub-menu {
+        width: 100%;
+    }
+
+    .navbar .navbar-nav li .sub-menu {
+        position: relative !important;
+        width: 80% !important;
+        left: 10% !important;
+        top: auto !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: none;
+        right: auto;
+        -webkit-transition: none;
+        transition: none;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        text-align: left;
+    }
+
+
+
+    .banner_area .banner_text {
+	padding: 76px 0;
+	padding-top: 135px;
+}
+
+    .banner_area .banner_text h2 {
+        font-size: 30px;
+    }
+
+    .banner_area .banner_text h1 {
+        font-size: 49px;
+        line-height: 66px;
+        padding-bottom: 47px;
+        margin-bottom: 46px;
+    }
+
+    .about_area .single_item {
+
+        margin-top: 24px;
+    }
+
+    .about_area .md-item {
+        margin-top: 26px;
+    }
+
+    .counter_area .counter_1 .countup {
+        font-size: 64px;
+    }
+
+    .Services_area .section-title h3 {
+        font-size: 25px;
+    }
+
+    .Services_area .sre_item.abc {
+        padding-top: 0px;
+    }
+
+    .Services_area .sre_item {
+        padding-bottom: 14px;
+    }
+
+    .slider_area .left_arrow {
+        display: none !important;
+    }
+
+    .slider_area .right_arrow {
+        display: none !important;
+    }
+
+    .slider_area .single_slide .slider_text p {
+        font-size: 16px;
+    }
+
+    .slider_area .single_slide .slider_text h4 {
+        font-size: 20px;
+        padding-left: 49px;
+    }
+
+    .slider_area .single_slide .slider_text h4::before {
+        width: 39px;
+    }
+
+    .team_area .single_team .team_social a {
+        width: 47px;
+        height: 50px;
+    }
+
+    .team_area .btm {
+        padding-bottom: 27px;
+    }
+
+    .footer_area .left_part .subscrib input {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .footer_area .left_part .subscrib .btn {
+        font-size: 12px;
+        right: 0;
+        padding: 12px 19px;
+    }
+
+    .footer_area .midd_title h2 {
+        padding-top: 38px;
+    }
+
+    .footer_area .midd_part .img-a {
+        padding-bottom: 48px;
+    }
+
+}
